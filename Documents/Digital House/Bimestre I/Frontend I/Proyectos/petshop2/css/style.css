@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:wght@100;300&display=swap');
+
+/* Root */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header */
+header .header-box {
+    background-color:#222222;
+    color:#FFFFFF;
+    font-size: 14px;
+}
+/* Header caja 1 */
+header .header-box .text-1 {
+    left: 60px;
+    position: relative;
+}
+
+header .header-box .text-2 {
+    position: relative;
+    left:900px;
+}
+
+header .header-box .text-3 {
+    left: 950px;
+    position: relative;
+}
+/* Header Caja 2 */
+
+/* Header Subcaja 1 dentro de Header Caja 2 */
+header .header-box2 {
+    background-color:#F0A83E;
+    display: flex;
+}
+
+header .header-box2 .image-1 img {
+    width: 50px;
+    left: 30px;
+    position: relative;
+    top: 5px;
+}
+
+header .header-box2 .text-4 {
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+header .header-box2 .text-5 {
+    color:#3C2313;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+header .header-box2 .image-2 img {
+    width: 50px;
+    left: -30px;
+    position: relative;
+    top: 5px;
+}
+
+/* Header Subcaja 2 dentro de Header Caja 2 */
+header .header-box2 .nav-bar {
+    display: flex;
+    left: 180px;
+    padding: 40px;
+    position:relative;
+    top: -10px;
+}
+
+header .header-box2 .nav-bar ul {
+    display: flex;
+    margin: auto;
+}
+
+header .header-box2 .nav-bar ul a {
+    color: #FFFFFF;
+    padding: 40px;
+    text-decoration: none;
+}
+
+/* Main */
+
+/* Body */
+body {
+    background: #E5E5E5;;
+}
+
+/* Banner principal */
+.container-main {
+    background-image: url("../img/bowl-and-pet-daities-on-green-background_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -20px;
+}
+
+.container-main div .subtitle {
+    background-color: #FFFFFF;
+    border-radius: 0.2em;
+    display: inline-block;
+    font-size: 33px;
+    left: 65%;
+    padding: 10px;
+    position: relative;
+    top: 165px;
+}
+
+.container-main .text-4 {
+    font-size: 20px;
+    left: 72%;
+    position: relative;
+    top: 150px;
+}
+
+.container-main .btn {
+    background-color: #F0A83E;
+    border: none;
+    border-radius: 0.2em;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 20px;
+    left: 55%;
+    padding: 20px;
+    position: relative;
+    top: 230px;
+}
+
+
+/* Productos */
+.container-main .image-4 {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 350px;
+}
+
+.productos .subtitle-2 {
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 320px;
+}
+
+.productos ul {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 290px;
+}
+
+.productos ul li a{
+    color: #666666;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.productos .container-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+}
+
+.productos .container-img .image-5, .image-6,.image-7, img {
+    border-radius: 0.5em;
+}
+
+.productos .container-img figcaption{
+    text-align: center;
+}
+
+.productos .container-img figcaption p {
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+/* Formulario Suscribete */
+.formulario .subtitle-3 {
+    position: relative;
+    text-align: center;
+    top: 330px;
+}
+
+.formulario .input-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 330px;
+}
+
+.formulario .input-1 input {
+    border-radius: 3em;
+    background-color:#3C2313;
+    color: #E5E5E5;
+    padding: 20px;
+}
+
+.formulario .input-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 330px;
+}
+
+.formulario .input-2 input {
+    border-radius: 3em;
+    background-color:#3C2313;
+    color: #E5E5E5;
+    padding: 20px;
+}
+
+.formulario .input-3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 330px;
+}
+
+.formulario .input-3 input {
+    border-radius: 3em;
+    background-color:#3C2313;
+    color: #E5E5E5;
+    padding: 20px;
+}
+
+.formulario .btn-2 {
+    background-color: #F0A83E;
+    border: none;
+    border-radius: 1em;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    left: 50%;
+    padding: 10px;
+    position: relative;
+    top: 290px;
+    width: 120px;
+}
+
+.formulario .btn-3 {
+    background-color: #8A8787;
+    border: none;
+    border-radius: 1em;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    left: 31%;
+    padding: 10px;
+    position: relative;
+    top: 290px;
+    width: 120px;
+}
+
+/* Suscribete buscador */
+.suscribete {
+    background-color: #F0A83E;
+    display: flex;
+    height: 100px;
+    position: relative;
+    top: 350px;
+}
+
+.suscribete .image-8 img { 
+    position: relative;
+    top: 15px;
+    width: 70px;
+}
+
+.suscribete .subtitle-4 { 
+    align-items: center;
+    display: flex;
+}
+
+.suscribete .input-4 {
+    left: 35%;
+    position: relative;
+    top: 25px;
+}
+
+.suscribete .input-4 input {
+    border: none;
+    border-radius: 1.5em;
+    height: 50px;
+}
+
+.suscribete .btn-4 { 
+    background-color: #3C2313;
+    border-radius: 1em;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 40px;
+    left: 38%;
+    position: relative;
+    top: 30px;
+    width: 120px;
+}
+
+/* Footer */
+.pie-pagina {
+    background-color: #3C2313;
+    display: flex;
+    position: relative;
+    top: 330px;
+}
+
+
+.pie-pagina .image-12 {
+    left: 460px;
+    position: relative;
+    top: 100px;
+}
+
+.pie-pagina .image-12 img {
+    width: 60px;
+}
+
+.pie-pagina .text-6 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    left: 585px;
+    position: relative;
+    top: 25px;
+}
+
+.pie-pagina .text-7 {
+    color: #F0A83E;
+    font-size: 30px;
+    font-weight: bold;
+    left: 590px;
+    position: relative;
+    top: 25px;
+}
+
+.pie-pagina .image-13 {
+    left: 740px;
+    position: relative;
+    top: -35px;
+}
+
+.pie-pagina .image-13 img {
+    width: 60px;
+}
+
+.box3-pie-pagina {
+    background-color: #222222;
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    top: 320px;
+}
+
+

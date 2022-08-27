@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:wght@100;300&display=swap');
+
+/* Root */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Main */
+body {
+    align-items: center;
+    background-color:#89D0A7; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+}
+
+.container-main {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5em;
+    display: flex;
+    height: 46vw;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+}
+
+.container-main .title {
+    bottom: 80px;
+    left: 250px;
+    position: relative;
+}
+
+.container-main .usuario { 
+    left: 50px;
+    position: relative;
+    top: 0px;
+}
+
+.container-main .usuario input { 
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.container-main .usuario input::placeholder{ 
+    color: #fff;
+ }
+
+.container-main .password { 
+    left: -210px;
+    position: relative;
+    top: 70px;
+}
+
+.container-main .password input { 
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.container-main .password input::placeholder{ 
+    color: #fff;
+}
+
+.container-main .image { 
+    left: 420px;
+    position: relative;
+    bottom: 200px;
+}
+
+.container-main .image img { 
+    width: 110px;
+}
+
+.container-main .btn {
+    background-color: darkorange;
+    border: none;
+    left: -400px;
+    padding: 15px;
+    position: relative;
+    top: 150px;
+    width: 100px;
+}
