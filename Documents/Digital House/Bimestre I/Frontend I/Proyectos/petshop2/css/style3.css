@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:wght@100;300&display=swap');
+
+/* Root */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Main */
+body {
+    align-items: center;
+    background-color:#89D0A7; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+}
+
+.container-main {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    height: 46vw;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+}
+
+.container-main .title {
+    bottom: 250px;
+    font-size: 40px;
+    left: 250px;
+    position: relative;
+}
+
+.container-main .subtitle {
+    bottom: 150px;
+    font-size: 30px;
+    left: 120px;
+    position: relative;
+    
+}
+
+
+.container-main .nombre { 
+    bottom: 90px;
+    left: 30px;
+    position: relative;
+}
+
+.container-main .nombre input { 
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.container-main .nombre input::placeholder{ 
+    color: #fff;
+ }
+
+.container-main .apellido { 
+    bottom: 60px;
+    left: 30px;
+    position: relative;
+}
+
+.container-main .apellido input { 
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.container-main .apellido input::placeholder{ 
+    color: #fff;
+}
+
+.container-main .genero { 
+    bottom: 30px;
+    left: 20px;
+    position: relative;
+}
+
+.container-main .genero select{ 
+    border: none;
+    color: black;
+    width: 180px;
+}
+
+.container-main .genero select option{ 
+    color: black;
+}
+
+.container-main .fecha { 
+    bottom: 10px;
+    left: 0px;
+    position: relative;
+}
+
+.container-main .fecha input  { 
+    bottom: 0px;
+    left: 10px;
+    position: relative;
+    width: 150px;
+}
+.container-main .email { 
+    bottom: -10px;
+    left: 30px;
+    position: relative;
+}
+
+.container-main .email input { 
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.container-main .email input::placeholder{ 
+    color: #fff;
+}
+
+.container-main .image { 
+    left: 250px;
+    position: relative;
+    bottom: 240px;
+}
+
+.container-main .image img { 
+    width: 110px;
+}
+
+.container-main .btn {
+    background-color: darkorange;
+    border: none;
+    left: 38px;
+    padding: 15px;
+    position: relative;
+    top: 50px;
+    width: 200px;
+}

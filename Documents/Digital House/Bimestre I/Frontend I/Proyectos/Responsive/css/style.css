@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:wght@100;300&display=swap');
+/* Root */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* HEADER */
+.header-box {
+    background-color: #D1891C;
+}
+
+.header-box2 {
+    background-color: #00669F;
+}
+
+/* Batman */
+main .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+main .box1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: -10vh;
+    position: relative;
+    top: 10vh;
+}
+
+main .box1 .bg-batman {
+    background-color: #F3F3F3;
+    background-image: url("/img/batmanbg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    border-radius: 0.2em;
+    height: 85vh;
+    width: 25vw;
+}
+
+main .bg-batman .img2 img {
+    border-radius: 10em;
+    left: 30%;
+    position: relative;
+    top: 22vh;
+    width: 120px;
+}
+
+main .bg-batman .img3 img {
+    border-radius: 10em;
+    left: 5%;
+    position: relative;
+    bottom: 18vh;
+    width: 25px;
+}
+
+main .bg-batman .card {
+    position: relative;
+    top: 20vh;
+}
+
+main .bg-batman .card .title {
+    font-size: 25px;
+    text-align: center;
+}
+
+main .bg-batman .card .text {
+    bottom: 3vh;
+    font-size: 15px;
+    padding: 20px;
+    position: relative;
+    text-align: justify;
+}
+
+main .bg-batman .card .btn {
+    background-color: #00669F;
+    border: none;
+    color: #F3F3F3;
+    left: 16vh;
+    padding: 10px;
+    position: relative;
+    top: 2vh;
+    width: 10vw;
+}
+
+/* Harley Quinn */
+main .box3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 3vh;
+    position: relative;
+    top: 10vh;
+}
+
+main .box3 .bg-harley {
+    background-color: #F3F3F3;
+    background-image: url("/img/harly.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    border-radius: 0.2em;
+    height: 85vh;
+    width: 25vw;
+}
+
+main .bg-harley .img6 img {
+    border-radius: 10em;
+    left: 30%;
+    position: relative;
+    top: 22vh;
+    width: 120px;
+}
+
+main .bg-harley .img7 img {
+    bottom: 18vh;
+    left: 5%;
+    position: relative;
+    width: 25px;
+}
+
+main .bg-harley .card3 {
+    position: relative;
+    top: 20vh;
+}
+
+main .bg-harley .card3 .title3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+main .bg-harley .card3 .text3 {
+    bottom: 3vh;
+    font-size: 15px;
+    padding: 20px;
+    position: relative;
+    text-align: justify;
+}
+
+main .bg-harley .card3 .btn3 {
+    background-color: #00669F;
+    border: none;
+    bottom: 2vh;
+    color: #F3F3F3;
+    left: 16vh;
+    padding: 10px;
+    position: relative;
+    width: 10vw;
+}
+
+/* Superman */
+main .box4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 15vh;
+    position: relative;
+    top: 10vh;
+}
+
+main .box4 .bg-superman {
+    background-color: #F3F3F3;
+    background-image: url("/img/galaxy.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    border-radius: 0.2em;
+    height: 85vh;
+    width: 25vw;
+}
+
+main .bg-superman .img8 img {
+    border-radius: 10em;
+    left: 30%;
+    position: relative;
+    top: 22vh;
+    width: 120px;
+}
+
+main .bg-superman .img9 img {
+    border-radius: 10em;
+    left: 5%;
+    position: relative;
+    bottom: 18vh;
+    width: 25px;
+}
+
+main .bg-superman .card4 {
+    position: relative;
+    top: 20vh;
+}
+
+main .bg-superman .card4 .title4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+main .bg-superman .card4 .text4 {
+    bottom: 3vh;
+    font-size: 15px;
+    padding: 20px;
+    position: relative;
+    text-align: justify;
+}
+
+main .bg-superman .card4 .btn4 {
+    background-color: #00669F;
+    border: none;
+    bottom: 2vh;
+    color: #F3F3F3;
+    left: 16vh;
+    padding: 10px;
+    position: relative;
+    width: 10vw;
+}
+
+/* BATMAN */
+@media (min-heigth: 480px) and (orientation: portrait) {
+    main .container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 5vh;
+    }
+    
+    main .box1 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 5vh;
+    }
+    
+    main .box1 .bg-batman {
+        background-color: #F3F3F3;
+        background-image: url("/img/batmanbg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+        border-radius: 0.2em;
+        height: 94vh;
+        width: 60vw;
+    }
+    
+    main .bg-batman .img2 img {
+        border-radius: 10em;
+        left: 30%;
+        position: relative;
+        top: 22vh;
+        width: 120px;
+    }
+    
+    main .bg-batman .img3 img {
+        border-radius: 10em;
+        left: 5%;
+        position: relative;
+        bottom: 18vh;
+        width: 25px;
+    }
+    
+    main .bg-batman .card {
+        position: relative;
+        top: 17vh;
+    }
+    
+    main .bg-batman .card .title {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    main .bg-batman .card .text {
+        bottom: 3vh;
+        font-size: 15px;
+        padding: 20px;
+        position: relative;
+        text-align: justify;
+    }
+    
+    main .bg-batman .card .btn {
+        background-color: #00669F;
+        border: none;
+        bottom: 4vh;
+        color: #F3F3F3;
+        left: 13vh;
+        padding: 10px;
+        position: relative;
+        width: 30vw;
+    }
+    
+     /* MUJER MARAVILLA */
+    main .box2 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 10vh;
+    }
+    
+    main .box2 .bg-maravilla{
+        background-color: #F3F3F3;
+        background-image: url("/img/amazoniua.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+        border-radius: 0.8em;
+        height: 115vh;
+        width: 60vw;
+    }
+    
+    main .bg-maravilla .img4 img {
+        border-radius: 10em;
+        left: 30%;
+        position: relative;
+        top: 20vh;
+        width: 120px;
+    }
+    
+    main .bg-maravilla .img5 img {
+        border-radius: 10em;
+        left: 5%;
+        position: relative;
+        width:25px;
+    }
+    
+    main .bg-maravilla .card2 {
+        position: relative;
+        top: 17vh;
+    }
+    
+    main .bg-maravilla .card2 .title2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    main .bg-maravilla .card2 .text2 {
+        bottom: 3vh;
+        font-size: 15px;
+        padding: 20px;
+        position: relative;
+        text-align: justify;
+    }
+    
+    main .bg-maravilla .card2 .btn2 {
+        background-color: #00669F;
+        border: none;
+        bottom: 4vh;
+        color: #F3F3F3;
+        left: 13vh;
+        padding: 10px;
+        position: relative;
+        width: 30vw;
+    }
+    
+     /* HARLEY QUINN */
+    main .box3 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 15vh;
+    }
+    
+    main .box3 .bg-harley {
+        background-color: #F3F3F3;
+        background-image: url("/img/harly.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+        border-radius: 0.2em;
+        height: 95vh;
+        width: 60vw;
+    }
+    
+    main .bg-harley .img6 img {
+        border-radius: 10em;
+        left: 30%;
+        position: relative;
+        top: 22vh;
+        width: 120px;
+    }
+    
+    main .bg-harley .img7 img {
+        border-radius: 10em;
+        left: 5%;
+        position: relative;
+        bottom: 18vh;
+        width: 25px;
+    }
+    
+    main .bg-harley  .card3 {
+        position: relative;
+        top: 17vh;
+    }
+    
+    main .bg-harley  .card3 .title3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    main .bg-harley  .card3 .text3 {
+        bottom: 3vh;
+        font-size: 15px;
+        padding: 20px;
+        position: relative;
+        text-align: justify;
+    }
+    
+    main .bg-harley .card3 .btn3 {
+        background-color: #00669F;
+        border: none;
+        bottom: 4vh;
+        color: #F3F3F3;
+        left: 13vh;
+        padding: 10px;
+        position: relative;
+        width: 30vw;
+    }
+    
+    /* SUPERMAN */
+    main .box4 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 20vh;
+    }
+    
+    main .box4 .bg-superman {
+        background-color: #F3F3F3;
+        background-image: url("/img/galaxy.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+        border-radius: 0.2em;
+        height: 100vh;
+        width: 60vw;
+    }
+    
+    main .bg-superman .img8 img {
+        border-radius: 10em;
+        left: 30%;
+        position: relative;
+        top: 22vh;
+        width: 120px;
+    }
+    
+    main .bg-superman .img9 img {
+        border-radius: 10em;
+        left: 5%;
+        position: relative;
+        bottom: 18vh;
+        width: 25px;
+    }
+    
+    main .bg-superman .card4 {
+        position: relative;
+        top: 20vh;
+    }
+    
+    main .bg-superman .card4 .title4 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    main .bg-superman .card4 .text4 {
+        bottom: 2vh;
+        font-size: 15px;
+        padding: 20px;
+        position: relative;
+        text-align: justify;
+    }
+    
+    main .bg-superman .card4 .btn4 {
+        background-color: #00669F;
+        border: none;
+        bottom: 2vh;
+        color: #F3F3F3;
+        left: 13vh;
+        padding: 10px;
+        position: relative;
+        width: 30vw;
+    }
+    
+}
+
+
