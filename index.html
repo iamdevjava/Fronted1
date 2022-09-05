@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+        <div class="header-box2">
+            <figure class="logo-tienda">
+                <img src="/img/Logo.svg" alt="logo">
+            </figure>
+            <h1 class="title">La tienda de super heroes</h1>
+        </div>
+        <nav class="nav-bar">
+            <ul type="none">
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Registrarme</a></li>
+                <li><a href="">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="sub-container">
+                <h2 class="subtitle">Añadí tu super!</h2>
+                <p class="text">Agregá tu personaje favorito completando las opciones.</p>
+                <div class="nombre-user">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="especie">
+                    <label for="nombre">Especie</label>
+                    <select name="especie" id="especie">
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="nobinario">No binario</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Agregar foto</p>
+                    <button type="submit" class="btn">Seleccionar archivo</button>
+                    <p>No se elegio archivo</p>
+                </div>
+                <div class="poderes">
+                    <label for="volar">Volar</label>
+                    <input type="radio" id="volar" name="volar" required>
+                    <label for="inteligencia">SuperInteligencia</label>
+                    <input type="radio" id="inteligencia" name="inteligencia" required>
+                    <label for="rayosLaser">Vista de rayos de lase</label>
+                    <input type="radio" id="rayosLaser" name="rayosLaser" required>
+                    <label for="billetera">Billetera gorda</label>
+                    <input type="radio" id="billetera" name="billetera" required>
+                </div>
+                <div class="descripcion">
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripcion"></textarea>
+                </div>
+                <hr>
+                <div class="tipoPersonaje">
+                    <label for="hero">Heroina/Heroe</label>
+                    <input type="radio" id="hero" name="hero" required>
+                    <label for="villano">Villana/Villano</label>
+                    <input type="radio" id="villano" name="villano" required>
+                </div>
+                <button type="submit" class="btn2">Añadir</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
