@@ -43,30 +43,37 @@
                         <option value="nobinario">No binario</option>
                     </select>
                 </div>
-                <div>
-                    <p>Agregar foto</p>
-                    <button type="submit" class="btn">Seleccionar archivo</button>
-                    <p>No se elegio archivo</p>
+                <div class="fecha">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha" name="fecha" required>
                 </div>
-                <div class="poderes">
-                    <label for="volar">Volar</label>
-                    <input type="radio" id="volar" name="volar" required>
-                    <label for="inteligencia">SuperInteligencia</label>
-                    <input type="radio" id="inteligencia" name="inteligencia" required>
-                    <label for="rayosLaser">Vista de rayos de lase</label>
-                    <input type="radio" id="rayosLaser" name="rayosLaser" required>
-                    <label for="billetera">Billetera gorda</label>
-                    <input type="radio" id="billetera" name="billetera" required>
+                <div class="foto">
+                    <p class="text2">Agregar foto</p>
+                    <button type="submit" class="btn">Seleccionar archivo</button>
+                    <p class="text3">No se elegio archivo</p>
                 </div>
                 <div class="descripcion">
                     <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripcion"></textarea>
                 </div>
-                <hr>
+                <div class="poderes">
+                    <h2 class="subtitle2">Poderes</h2>
+                    <input type="checkbox" id="volar" name="volar" required>
+                    <label for="volar">Volar</label><br>
+                    <input type="checkbox" id="inteligencia" name="inteligencia" required>
+                    <label for="inteligencia">SuperInteligencia</label><br>        
+                    <input type="checkbox" id="rayosLaser" name="rayosLaser" required>
+                    <label for="rayosLaser">Vista de rayos de lase</label><br>
+                    <input type="checkbox" id="billetera" name="billetera" required>
+                    <label for="billetera">Billetera gorda</label><br>
+                </div>
+                <br><hr class="linea">
+
                 <div class="tipoPersonaje">
-                    <label for="hero">Heroina/Heroe</label>
+                    <h2 class="subtitle3">Tipo de heroe</h2>
                     <input type="radio" id="hero" name="hero" required>
-                    <label for="villano">Villana/Villano</label>
+                    <label for="hero">Heroina/Heroe</label><br>
                     <input type="radio" id="villano" name="villano" required>
+                    <label for="villano">Villana/Villano</label><br>
                 </div>
                 <button type="submit" class="btn2">Añadir</button>
             </div>

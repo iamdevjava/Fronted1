@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -9,6 +8,12 @@
 /* Header */
 .header-box {
     background-color:#1CD1B0;
+
+}
+
+.header-box p{
+    left: 10vh;
+    position: relative;
 }
 
 .header-box2 {
@@ -17,6 +22,11 @@
     color: #F3F3F3F3;
     display: flex;
     justify-content: flex-start;
+}
+
+.header-box2 .title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .nav-bar {
@@ -38,6 +48,7 @@
     background-color: #E5E5E5;
     display: flex;
     justify-content: center;
+    height: 110vh;
 }
 
 .sub-container {
@@ -45,7 +56,192 @@
     border: none;
     border-radius: 0.5em;
     color: #E5E5E5;
+    height: 100vh;
+    width: 80vw;
 }
 
+.subtitle {
+    text-align: center;
+}
 
+.text {
+    text-align: center;
+}
+
+.nombre-user label{
+    left:35vh;
+    position: relative;
+    top: 2.5vh;
+}
+
+.nombre-user input {
+   border: none;
+   border-radius: 0.5em;
+   height: 6vh;
+   left: 10vh;
+   position: relative;
+   top: 8vh;
+   width: 25vw;
+}
+
+.especie {
+    left: 80vh;
+    position: relative;
+}
+
+.especie label {
+    bottom: 4vh;
+    left:20vh;
+    position: relative;
+ }
+
+.especie select {
+    border: none;
+    border-radius: 0.5em;
+    height: 6vh;
+    left: -10vh;
+    position: relative;
+    top: 2vh;
+    width: 25vw;
+ }
+
+.fecha {
+    left: 22vh;
+    position: relative;
+    top: 10vh;
+}
+
+ .fecha input{
+    border: none;
+    border-radius: 0.2em;
+    font-size: 20px;
+    height: 6vh;
+    left: -10vh;
+    position: relative;
+    top: 2vh;
+    width: 25vw;
+ }
+
+ .fecha label {
+    bottom: 4vh;
+    left:13vh;
+    position: relative;
+ }
+
+
+.foto {
+    left:78vh;
+    position: relative;
+}
+
+.text3 {
+    color: black;
+    font-size: 10px;
+    left: 32vh;
+    position: relative;
+    top: 1vh;
+}
+
+.btn {
+    background-color: #CECECE;
+    border: none;
+    border-radius: 0.5em;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    top: 4vh;
+    width: 16vw;
+}
+
+.descripcion textarea {
+    height: 20vw;
+    left: 18.9vh;
+    position: relative;
+    top: 8vh;
+    width: 25.1vw;
+}
+
+.descripcion textarea::placeholder {
+    position: relative;
+    text-align: center;
+    top: 15vh;
+}
+
+.poderes {
+    bottom: 29vh;
+    left: 78vh;
+    position: relative;
+}
+
+.poderes label {
+    position: relative;
+    top: 1vh;
+}
+
+.poderes input {
+    position: relative;
+    top: 1vh;
+}
+
+.linea {
+    bottom: 29vh;
+    left: 78vh;
+    position: relative;
+    width: 30vw;
+}
+
+.tipoPersonaje {
+    bottom: 27vh;
+    left: 77vh;
+    position: relative;
+}
+
+.tipoPersonaje input {
+    position: relative;
+    top: 2vh;
+}
+
+.tipoPersonaje label {
+    position: relative;
+    top: 2vh;
+}
+
+.btn2 {
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 2em;
+    bottom: 18vh;
+    font-size: 30px;
+    font-weight: bold;
+    height: 10vh;
+    left: 45vh;
+    position: relative;
+    width: 30vw;
+}
+
+.nav-bar {
+    align-items: center;
+    display: flex;
+    height: 5vh;
+    justify-content: flex-end;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar ul a {
+    padding: 25px;
+}
+
+footer {
+    background-color: #00669F;
+    color: #E5E5E5;
+    height: 9vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
