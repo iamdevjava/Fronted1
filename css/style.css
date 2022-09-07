@@ -37,6 +37,12 @@
     justify-content: flex-end;
 }
 
+.nav-bar ul li:hover {
+    background-color: red;
+    border: none;
+    padding: 2.5px;
+}
+
 .nav-bar a {
     color: #F3F3F3F3;
     text-decoration: none;
@@ -72,6 +78,14 @@
     left:35vh;
     position: relative;
     top: 2.5vh;
+}
+
+input:hover,textarea:hover {
+   background-color: azure;
+}
+
+label::selection {
+    background-color: aquamarine;
 }
 
 .nombre-user input {
@@ -153,6 +167,10 @@
     width: 16vw;
 }
 
+.btn:hover {
+    background-color: darkorange;
+}
+
 .descripcion textarea {
     height: 20vw;
     left: 18.9vh;
@@ -217,6 +235,11 @@
     left: 45vh;
     position: relative;
     width: 30vw;
+}
+
+.btn2:hover {
+    background-color:lime ;
+    transition: 0.3s;
 }
 
 .nav-bar {
